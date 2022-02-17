@@ -7,6 +7,7 @@
   <summary>A tool for managing OCI containers and pods</summary>
   <url type="homepage">https://podman.io/</url>
   <releases>
+    <release version="4.0.0" date="2022-02-17"/>
     <release version="3.4.4" date="2021-12-08"/>
     <release version="3.4.3" date="2021-12-07"/>
     <release version="3.4.2" date="2021-11-12"/>
