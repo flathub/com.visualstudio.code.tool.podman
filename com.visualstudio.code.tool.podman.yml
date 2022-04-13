@@ -29,9 +29,11 @@ modules:
         commit: 62534053086fdeba7b93117e7c4dc6e797835a3e
         x-checker-data:
           type: json
-          url: https://api.github.com/repos/containers/podman/releases/latest
-          tag-query: .tag_name
-          timestamp-query: .published_at
+          url: https://api.github.com/repos/containers/podman/releases
+          tag-query: >-
+            map(select(.tag_name | test("^v3.*"))) | first | .tag_name
+          timestamp-query: >-
+            map(select(.tag_name==$tag)) | first | .published_at
           version-query: $tag | sub("^v"; "")
 
   - name: bundle-setup
