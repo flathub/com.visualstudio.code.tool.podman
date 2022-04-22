@@ -3,8 +3,8 @@
   <id>com.visualstudio.code.tool.podman</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>Apache-2.0</project_license>
-  <name>Podman</name>
-  <summary>A tool for managing OCI containers and pods</summary>
+  <name>Podman (remote client)</name>
+  <summary>A tool for VS Code for managing OCI containers and pods</summary>
   <url type="homepage">https://podman.io/</url>
   <releases>
     <release version="3.4.7" date="2022-04-20"/>
