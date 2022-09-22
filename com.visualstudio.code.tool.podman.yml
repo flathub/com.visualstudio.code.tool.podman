@@ -1,7 +1,7 @@
 id: com.visualstudio.code.tool.podman
-branch: '21.08'
+branch: '22.08'
 build-extension: true
-sdk: org.freedesktop.Sdk//21.08
+sdk: org.freedesktop.Sdk//22.08
 runtime: com.visualstudio.code
 runtime-version: stable
 separate-locales: false
