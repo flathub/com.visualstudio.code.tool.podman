@@ -31,7 +31,7 @@ modules:
           type: json
           url: https://api.github.com/repos/containers/podman/releases
           tag-query: >-
-            map(select(.tag_name | test("^v3.*"))) | first | .tag_name
+            map(select(.tag_name | test("^v3.*"))) | sort_by(.tag_name | sub("^[vV]"; "") | split(".")) | last | .tag_name
           timestamp-query: >-
             map(select(.tag_name==$tag)) | first | .published_at
           version-query: $tag | sub("^v"; "")
