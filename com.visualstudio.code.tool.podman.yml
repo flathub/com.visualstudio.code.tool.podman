@@ -25,15 +25,13 @@ modules:
     sources:
       - type: git
         url: https://github.com/containers/podman.git
-        tag: v3.4.7
-        commit: 74d67f5d43bcd322a4fb11a7b58eced866f9d0b9
+        tag: v4.3.0
+        commit: ad42af94903ce4f3c3cd0693e4e17e4286bf094b
         x-checker-data:
           type: json
-          url: https://api.github.com/repos/containers/podman/releases
-          tag-query: >-
-            map(select(.tag_name | test("^v3.*"))) | sort_by(.tag_name | sub("^[vV]"; "") | split(".")) | last | .tag_name
-          timestamp-query: >-
-            map(select(.tag_name==$tag)) | first | .published_at
+          url: https://api.github.com/repos/containers/podman/releases/latest
+          tag-query: .tag_name
+          timestamp-query: .published_at
           version-query: $tag | sub("^v"; "")
 
   - name: bundle-setup
