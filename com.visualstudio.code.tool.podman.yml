@@ -25,8 +25,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/containers/podman.git
-        tag: v4.9.1
-        commit: 118829d7fc68c34d5a317cda90b69884f3446f5c
+        tag: v4.9.2
+        commit: f9a48ebcfa9a39144be0f86f4ba842752835f945
         x-checker-data:
           type: json
           url: https://api.github.com/repos/containers/podman/releases/latest
