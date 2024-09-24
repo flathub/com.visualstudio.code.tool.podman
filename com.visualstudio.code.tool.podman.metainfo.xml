@@ -7,8 +7,11 @@
   <summary>A tool for VS Code for managing OCI containers and pods</summary>
   <url type="homepage">https://podman.io/</url>
   <releases>
-    <release version="5.2.0" date="2024-08-02">
+    <release version="5.2.3" date="2024-09-24">
       <description></description>
+    </release>
+    <release version="5.2.0" date="2024-08-02">
+      <description/>
     </release>
     <release version="5.1.2" date="2024-07-10">
       <description/>
