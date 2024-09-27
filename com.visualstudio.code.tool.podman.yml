@@ -5,7 +5,6 @@ sdk: org.freedesktop.Sdk//24.08
 runtime: com.visualstudio.code
 runtime-version: stable
 separate-locales: false
-appstream-compose: false
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
 build-options:
