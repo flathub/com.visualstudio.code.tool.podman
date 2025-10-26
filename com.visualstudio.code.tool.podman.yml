@@ -1,9 +1,9 @@
 id: com.visualstudio.code.tool.podman
-branch: stable
+branch: '25.08'
 build-extension: true
 sdk: org.freedesktop.Sdk//25.08
 runtime: com.visualstudio.code
-runtime-version: '25.08'
+runtime-version: stable
 separate-locales: false
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
