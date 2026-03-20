@@ -3,7 +3,7 @@ branch: '24.08'
 build-extension: true
 sdk: org.freedesktop.Sdk//24.08
 runtime: com.visualstudio.code
-runtime-version: stable
+runtime-version: 24.08
 separate-locales: false
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
