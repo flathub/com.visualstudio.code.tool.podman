@@ -7,90 +7,93 @@
   <summary>A tool for VS Code for managing OCI containers and pods</summary>
   <url type="homepage">https://podman.io/</url>
   <releases>
+    <release version="5.8.2" date="2026-05-10">
+      <description></description>
+    </release>
     <release version="5.8.1" date="2026-03-11">
       <description></description>
     </release>
     <release version="5.7.0" date="2025-11-11">
-      <description/>
+      <description />
     </release>
     <release version="5.6.2" date="2025-09-30">
-      <description/>
+      <description />
     </release>
     <release version="5.5.0" date="2025-05-14">
-      <description/>
+      <description />
     </release>
     <release version="5.4.1" date="2025-03-11">
-      <description/>
+      <description />
     </release>
     <release version="5.4.0" date="2025-02-11">
-      <description/>
+      <description />
     </release>
     <release version="5.3.2" date="2025-01-22">
-      <description/>
+      <description />
     </release>
     <release version="5.3.1" date="2024-11-21">
-      <description/>
+      <description />
     </release>
     <release version="5.3.0" date="2024-11-13">
-      <description/>
+      <description />
     </release>
     <release version="5.2.5" date="2024-10-23">
-      <description/>
+      <description />
     </release>
     <release version="5.2.4" date="2024-10-07">
-      <description/>
+      <description />
     </release>
     <release version="5.2.3" date="2024-09-24">
-      <description/>
+      <description />
     </release>
     <release version="5.2.0" date="2024-08-02">
-      <description/>
+      <description />
     </release>
     <release version="5.1.2" date="2024-07-10">
-      <description/>
+      <description />
     </release>
     <release version="5.1.1" date="2024-06-04">
-      <description/>
+      <description />
     </release>
     <release version="5.1.0" date="2024-05-29">
-      <description/>
+      <description />
     </release>
-    <release version="5.0.3" date="2024-05-10"/>
-    <release version="5.0.2" date="2024-04-17"/>
-    <release version="5.0.1" date="2024-04-01"/>
-    <release version="5.0.0" date="2024-03-19"/>
-    <release version="4.9.3" date="2024-02-13"/>
-    <release version="4.9.2" date="2024-02-02"/>
-    <release version="4.9.1" date="2024-02-01"/>
-    <release version="4.9.0" date="2024-01-23"/>
-    <release version="4.8.3" date="2024-01-03"/>
-    <release version="4.8.2" date="2023-12-11"/>
-    <release version="4.8.1" date="2023-12-05"/>
-    <release version="4.7.2" date="2023-10-31"/>
-    <release version="4.7.1" date="2023-10-05"/>
-    <release version="4.7.0" date="2023-09-27"/>
-    <release version="4.6.2" date="2023-08-28"/>
-    <release version="4.6.1" date="2023-08-10"/>
-    <release version="4.6.0" date="2023-07-20"/>
-    <release version="4.5.1" date="2023-05-26"/>
-    <release version="4.5.0" date="2023-04-14"/>
-    <release version="4.4.4" date="2023-03-27"/>
-    <release version="4.4.3" date="2023-03-23"/>
-    <release version="4.4.2" date="2023-02-23"/>
-    <release version="4.4.1" date="2023-02-08"/>
-    <release version="4.4.0" date="2023-02-01"/>
-    <release version="4.3.1" date="2022-11-10"/>
-    <release version="4.3.0" date="2022-10-19"/>
-    <release version="3.4.7" date="2022-04-20"/>
-    <release version="3.4.6" date="2022-04-13"/>
-    <release version="3.4.4" date="2021-12-08"/>
-    <release version="3.4.3" date="2021-12-07"/>
-    <release version="3.4.2" date="2021-11-12"/>
-    <release version="3.4.1" date="2021-10-20"/>
-    <release version="3.4.0" date="2021-09-30"/>
-    <release version="3.3.1" date="2021-08-30"/>
-    <release version="3.3.0" date="2021-08-20"/>
-    <release version="3.2.3" date="2021-07-16"/>
-    <release version="3.2.2" date="2021-06-25"/>
+    <release version="5.0.3" date="2024-05-10" />
+    <release version="5.0.2" date="2024-04-17" />
+    <release version="5.0.1" date="2024-04-01" />
+    <release version="5.0.0" date="2024-03-19" />
+    <release version="4.9.3" date="2024-02-13" />
+    <release version="4.9.2" date="2024-02-02" />
+    <release version="4.9.1" date="2024-02-01" />
+    <release version="4.9.0" date="2024-01-23" />
+    <release version="4.8.3" date="2024-01-03" />
+    <release version="4.8.2" date="2023-12-11" />
+    <release version="4.8.1" date="2023-12-05" />
+    <release version="4.7.2" date="2023-10-31" />
+    <release version="4.7.1" date="2023-10-05" />
+    <release version="4.7.0" date="2023-09-27" />
+    <release version="4.6.2" date="2023-08-28" />
+    <release version="4.6.1" date="2023-08-10" />
+    <release version="4.6.0" date="2023-07-20" />
+    <release version="4.5.1" date="2023-05-26" />
+    <release version="4.5.0" date="2023-04-14" />
+    <release version="4.4.4" date="2023-03-27" />
+    <release version="4.4.3" date="2023-03-23" />
+    <release version="4.4.2" date="2023-02-23" />
+    <release version="4.4.1" date="2023-02-08" />
+    <release version="4.4.0" date="2023-02-01" />
+    <release version="4.3.1" date="2022-11-10" />
+    <release version="4.3.0" date="2022-10-19" />
+    <release version="3.4.7" date="2022-04-20" />
+    <release version="3.4.6" date="2022-04-13" />
+    <release version="3.4.4" date="2021-12-08" />
+    <release version="3.4.3" date="2021-12-07" />
+    <release version="3.4.2" date="2021-11-12" />
+    <release version="3.4.1" date="2021-10-20" />
+    <release version="3.4.0" date="2021-09-30" />
+    <release version="3.3.1" date="2021-08-30" />
+    <release version="3.3.0" date="2021-08-20" />
+    <release version="3.2.3" date="2021-07-16" />
+    <release version="3.2.2" date="2021-06-25" />
   </releases>
 </component>
